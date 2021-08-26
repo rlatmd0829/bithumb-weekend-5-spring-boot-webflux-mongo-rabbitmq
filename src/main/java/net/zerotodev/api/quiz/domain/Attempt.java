@@ -15,7 +15,7 @@ import java.io.Serializable;
 @EqualsAndHashCode @Document(collection = "attempts")
 public class Attempt implements Serializable {
     @Id
-    private int id;
+    private long id;
     private final User user;
     private final Quiz quiz;
     private final int resultAttempt;
