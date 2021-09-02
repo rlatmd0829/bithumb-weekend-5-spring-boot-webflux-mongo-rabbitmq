@@ -15,4 +15,5 @@ public class QuizServiceImpl implements QuizService{
         Quiz quiz = new Quiz(factorA, factorB);
         return Mono.just(quiz);
     }
+
 }
